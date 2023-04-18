@@ -21,6 +21,5 @@
     "@vue/eslint-config-typescript": "^11.0.2",
     "eslint": "^8.38.0",
     "eslint-plugin-vue": "^9.10.0"
-  },
-  "gitHead": "d7827d475871f8f33b7d827b66d4b22d05d2ec23"
+  }
 }
