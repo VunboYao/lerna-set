@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-ygxy",
+  "version": "1.0.0",
+  "description": "eslint config for ygxy group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "vunbo",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.38.0",
+    "eslint-plugin-vue": "^9.10.0"
+  }
+}
