@@ -1,0 +1,116 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   'force-publish': true,
+0 silly argv   forcePublish: true,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath C:\Users\YGXY\Desktop\lerna-demo
+3 verbose session 5cfd3f9984bfe88c
+4 verbose user-agent lerna/6.6.1/node@v16.20.0+x64 (win32)
+5 silly argv {
+5 silly argv   _: [ 'publish' ],
+5 silly argv   'force-publish': true,
+5 silly argv   forcePublish: true,
+5 silly argv   composed: 'publish',
+5 silly argv   lernaVersion: '6.6.1'
+5 silly argv }
+6 verbose rootPath C:\Users\YGXY\Desktop\lerna-demo
+7 info current version 1.0.1
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch main
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v1.0.1-0-g25f18c6" => {"lastTagName":"v1.0.1","lastVersion":"v1.0.1","refCount":"0","sha":"25f18c6","isDirty":false}
+18 warn force-publish all packages
+19 info Assuming all packages changed
+20 verbose updated eslint-config-ygxy
+21 verbose updated ts-config-ygxy
+22 info execute Skipping releases
+23 silly lifecycle No script for "preversion" in "root", continuing
+24 silly lifecycle No script for "preversion" in "eslint-config-ygxy", continuing
+25 silly lifecycle No script for "preversion" in "ts-config-ygxy", continuing
+26 verbose version eslint-config-ygxy has no lockfile. Skipping lockfile update.
+27 verbose version ts-config-ygxy has no lockfile. Skipping lockfile update.
+28 silly lifecycle No script for "version" in "eslint-config-ygxy", continuing
+29 silly lifecycle No script for "version" in "ts-config-ygxy", continuing
+30 verbose version Updating root package-lock.json
+31 silly lifecycle No script for "version" in "root", continuing
+32 silly gitAdd [
+32 silly gitAdd   'packages/eslint-config-ygxy/package.json',
+32 silly gitAdd   'packages/ts-config-ygxy/package.json',
+32 silly gitAdd   'lerna.json',
+32 silly gitAdd   'package-lock.json'
+32 silly gitAdd ]
+33 silly gitCommit v1.0.2
+34 verbose git [ 'commit', '-m', 'v1.0.2' ]
+35 silly gitTag v1.0.2 git tag %s -m %s
+36 verbose git [ 'tag', 'v1.0.2', '-m', 'v1.0.2' ]
+37 silly lifecycle No script for "postversion" in "eslint-config-ygxy", continuing
+38 silly lifecycle No script for "postversion" in "ts-config-ygxy", continuing
+39 silly lifecycle No script for "postversion" in "root", continuing
+40 info git Pushing tags...
+41 silly gitPush origin main
+42 info publish Publishing packages to npm...
+43 warn ENOLICENSE Packages eslint-config-ygxy and ts-config-ygxy are missing a license.
+43 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+43 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+44 silly getCurrentSHA
+45 verbose getCurrentSHA d7827d475871f8f33b7d827b66d4b22d05d2ec23
+46 silly lifecycle No script for "prepublish" in "root", continuing
+47 silly lifecycle No script for "prepare" in "root", continuing
+48 silly lifecycle No script for "prepublishOnly" in "root", continuing
+49 silly lifecycle No script for "prepack" in "root", continuing
+50 verbose pack-directory packages\eslint-config-ygxy
+51 verbose pack-directory packages\ts-config-ygxy
+52 silly lifecycle No script for "prepublish" in "eslint-config-ygxy", continuing
+53 silly lifecycle No script for "prepublish" in "ts-config-ygxy", continuing
+54 silly lifecycle No script for "prepare" in "eslint-config-ygxy", continuing
+55 silly lifecycle No script for "prepare" in "ts-config-ygxy", continuing
+56 silly lifecycle No script for "prepublishOnly" in "eslint-config-ygxy", continuing
+57 silly lifecycle No script for "prepublishOnly" in "ts-config-ygxy", continuing
+58 silly lifecycle No script for "prepack" in "eslint-config-ygxy", continuing
+59 silly lifecycle No script for "prepack" in "ts-config-ygxy", continuing
+60 silly lifecycle No script for "postpack" in "eslint-config-ygxy", continuing
+61 verbose packed packages\eslint-config-ygxy
+62 silly lifecycle No script for "postpack" in "ts-config-ygxy", continuing
+63 verbose packed packages\ts-config-ygxy
+64 silly lifecycle No script for "postpack" in "root", continuing
+65 verbose publish eslint-config-ygxy
+66 verbose publish ts-config-ygxy
+67 silly FetchError: request to https://registry.npmjs.org/eslint-config-ygxy failed, reason: read ECONNRESET
+67 silly     at ClientRequest.<anonymous> (C:\Users\YGXY\Desktop\lerna-demo\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:513:28)
+67 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+67 silly     at TLSSocket.emit (node:events:525:35)
+67 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+67 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+67 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+67 silly  FetchError: request to https://registry.npmjs.org/eslint-config-ygxy failed, reason: read ECONNRESET
+67 silly     at ClientRequest.<anonymous> (C:\Users\YGXY\Desktop\lerna-demo\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:513:28)
+67 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+67 silly     at TLSSocket.emit (node:events:525:35)
+67 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+67 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+67 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+67 silly   code: 'ECONNRESET',
+67 silly   errno: 'ECONNRESET',
+67 silly   syscall: 'read',
+67 silly   type: 'system'
+67 silly }
+68 error ECONNRESET request to https://registry.npmjs.org/eslint-config-ygxy failed, reason: read ECONNRESET
+69 error FetchError: request to https://registry.npmjs.org/eslint-config-ygxy failed, reason: read ECONNRESET
+69 error     at ClientRequest.<anonymous> (C:\Users\YGXY\Desktop\lerna-demo\node_modules\minipass-fetch\lib\index.js:130:14)
+69 error     at ClientRequest.emit (node:events:513:28)
+69 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+69 error     at TLSSocket.emit (node:events:525:35)
+69 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+69 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
