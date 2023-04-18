@@ -19,7 +19,7 @@ module.exports = {
     /*
      “off”/0 关闭规则
      “warn”/1 警告
-     "error"/2 错误
+     "error"/2 错误1
    */
 
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
