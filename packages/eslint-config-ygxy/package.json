@@ -10,7 +10,13 @@
     "index.js",
     "src"
   ],
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "tslint",
+    "js格式化",
+    "vue3",
+    "格式化"
+  ],
   "author": "vunbo",
   "license": "ISC",
   "publishConfig": {
