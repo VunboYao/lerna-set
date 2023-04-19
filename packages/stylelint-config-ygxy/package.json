@@ -18,10 +18,10 @@
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^32.0.0"
   },
-   "devDependencies": {
-    "stylelint": "^15.4.0",
+  "devDependencies": {
+    "stylelint": "^15.4.0"
   },
-   "peerDependencies": {
+  "peerDependencies": {
     "stylelint": ">=15.0.0"
   }
 }
