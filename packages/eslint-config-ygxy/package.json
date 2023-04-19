@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ygxy",
-  "version": "1.0.21",
+  "version": "1.1.0",
   "description": "eslint config for ygxy group",
   "main": "index.js",
   "scripts": {
@@ -34,5 +34,5 @@
   "devDependencies": {
     "eslint": "^8.38.0"
   },
-  "gitHead": "19c1486927323e9fb093fb3ed582d54b3b2627ce"
+  "gitHead": "bcd03f4979a3772cfa88e73a79a58342813f60cf"
 }
