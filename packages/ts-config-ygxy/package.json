@@ -1,6 +1,6 @@
 {
   "name": "ts-config-ygxy",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "index.js",
   "files": [
@@ -15,5 +15,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "8abadd5b9d479125c112bbc64145864eba6bf05b"
+  "gitHead": "cc65d1672d01c3f52031c5623915dff7e5a0123e"
 }
