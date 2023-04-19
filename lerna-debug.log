@@ -1,22 +1,15 @@
-0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   'force-publish': true,
-0 silly argv   forcePublish: true,
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '6.6.1',
-0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
-0 silly argv }
-1 notice cli v6.6.1
-2 verbose rootPath C:\Users\YGXY\Desktop\lerna-demo
-3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 541 while parsing near "...dard\": \"^32.0.0\",\n  }\n}\n" in packages\stylelint-config-ygxy\package.json
-3 error
-3 error [0m [90m 19 |[39m     [32m"stylelint-config-recommended-vue"[39m[33m:[39m [32m"^1.4.0"[39m[33m,[39m[0m
-3 error [0m [90m 20 |[39m     [32m"stylelint-config-standard"[39m[33m:[39m [32m"^32.0.0"[39m[33m,[39m[0m
-3 error [0m[31m[1m>[22m[39m[90m 21 |[39m   }[0m
-3 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
-3 error [0m [90m 22 |[39m }[0m
-3 error [0m [90m 23 |[39m[0m
-3 error
-3 error     at parseJson (C:\Users\YGXY\Desktop\lerna-demo\node_modules\parse-json\index.js:29:21)
-3 error     at parse (C:\Users\YGXY\Desktop\lerna-demo\node_modules\load-json-file\index.js:15:9)
-3 error     at module.exports (C:\Users\YGXY\Desktop\lerna-demo\node_modules\load-json-file\index.js:18:47)
+15 error Error: Command failed with exit code 1: git remote update
+15 error kex_exchange_identification: Connection closed by remote host
+15 error Connection closed by 20.205.243.166 port 22
+15 error fatal: Could not read from remote repository.
+15 error
+15 error Please make sure you have the correct access rights
+15 error and the repository exists.
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (C:\Users\YGXY\Desktop\lerna-demo\node_modules\execa\lib\error.js:59:11)
+15 error     at Function.module.exports.sync (C:\Users\YGXY\Desktop\lerna-demo\node_modules\execa\index.js:186:17)
+15 error     at Object.execSync (C:\Users\YGXY\Desktop\lerna-demo\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (C:\Users\YGXY\Desktop\lerna-demo\node_modules\lerna\dist\cli.js:5908:22)
+15 error     at isBehindUpstream (C:\Users\YGXY\Desktop\lerna-demo\node_modules\lerna\dist\cli.js:5898:7)
+15 error     at VersionCommand.initialize (C:\Users\YGXY\Desktop\lerna-demo\node_modules\lerna\dist\cli.js:6233:57)
