@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ygxy",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "eslint config for ygxy group",
   "main": "index.js",
   "scripts": {
