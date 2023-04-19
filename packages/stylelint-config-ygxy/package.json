@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ygxy",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,5 @@
   "peerDependencies": {
     "stylelint": ">=15.0.0"
   },
-  "gitHead": "f9900d9df480d3b029734a3627c7543ae490cf3b"
+  "gitHead": "90d2de27d6c065168c4d0634bd4a8ba468fef9b2"
 }
