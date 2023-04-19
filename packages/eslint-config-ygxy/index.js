@@ -10,6 +10,7 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:vue/vue3-strongly-recommended',
     '@vue/eslint-config-typescript/recommended',
+    './src/.eslintrc-auto-import.json'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -125,8 +126,8 @@ module.exports = {
       'array': false, // 数组不推荐
       'object': true //对象解构
     }, {
-      'enforceForRenamedProperties': false
-    }],
+        'enforceForRenamedProperties': false
+      }],
 
     // 不允许初始化为：var foo = undefined
     'no-undef-init': 'error',
