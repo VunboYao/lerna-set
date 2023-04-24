@@ -132,9 +132,6 @@ module.exports = {
     // 不允许初始化为：var foo = undefined
     'no-undef-init': 'error',
 
-    // 禁止将 undefined 作为标识符： var undefined = "hi";
-    'no-undefined': 'warn',
-
     // 禁止在变量定义之前使用
     'no-use-before-define': 'warn',
 
@@ -236,6 +233,9 @@ module.exports = {
         'multiline': true
       }
     }],
+
+    // 非空断言警告
+    '@typescript-eslint/no-non-null-assertion': 'warn',
 
     // 临时排除的检测
     '@typescript-eslint/no-explicit-any': 'off',
